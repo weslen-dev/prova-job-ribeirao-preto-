@@ -8,32 +8,32 @@
 // Portanto, o valor de SOMA será(91).
 
 // 2 questão ? 
-function fibonacci(n) {
-    if (n === 0) {
-      return 0;
-    } else if (n === 1) {
-      return 1;
-    } else {
-      return fibonacci(n-1) + fibonacci(n-2);
-    }
-  }
+//function fibonacci(n) {
+  // if (n === 0) {
+     //  return 0;
+    // } else if (n === 1) {
+      // return 1;
+    // } else {
+      // return fibonacci(n-1) + fibonacci(n-2);
+    // }
+  // }
   
-  let numero = prompt("Digite um número inteiro:");
+ // let numero = prompt("Digite um número inteiro:");
   
-  let pertence = false;
+   //let pertence = false;
   
-  for (let i = 0; i <= numero; i++) {
-    if (fibonacci(i) === parseInt(numero)) {
-      pertence = true;
-      break;
-    }
-  }
+  //for (let i = 0; i <= numero; i++) {
+    //if (fibonacci(i) === parseInt(numero)) {
+     // pertence = true;
+     // break;
+   // }
+ // }
   
-  if (pertence) {
-    console.log(`O número ${numero} pertence à sequência de Fibonacci.`);
-  } else {
-    console.log(`O número ${numero} não pertence à sequência de Fibonacci.`);
-  }
+  //if (pertence) {
+   // console.log(`O número ${numero} pertence à sequência de Fibonacci.`);
+ // } else {
+   // console.log(`O número ${numero} não pertence à sequência de Fibonacci.`);
+  // }
   
 // 3 questão ?
 //a) 9 (a lógica é somar 2 ao número anterior)
@@ -82,23 +82,23 @@ function fibonacci(n) {
 //Portanto, o caminhão estará mais próximo de Ribeirão Preto, já que percorreu 50.104 km até o ponto de encontro, enquanto o carro percorreu 49.896 km
 
 // letra a ?
-let entrada = prompt("Digite uma palavra:");
+// let entrada = prompt("Digite uma palavra:");
 
-let invertida = "";
+// let invertida = "";
 
-for (let i = entrada.length - 1; i >= 0; i--) {
- invertida += entrada[i];
-  }
+// for (let i = entrada.length - 1; i >= 0; i--) {
+  //invertida += entrada[i];
+ // }
 
-console.log(`A palavra invertida é: ${invertida}`);
+ //console.log(`A palavra invertida é: ${invertida}`);
 
 // letra b ?
-let entrada = prompt("Digite uma palavra:");
+//  let entrada = prompt("Digite uma palavra:");
 
-let invertida = "";
+// let invertida = "";
 
-for (let i = entrada.length - 1; i >= 0; i--) {
-  invertida += entrada[i];
-}
+// for (let i = entrada.length - 1; i >= 0; i--) {
+// invertida += entrada[i];
+// }
 
-console.log(`A palavra invertida é: ${invertida}`);
+// console.log(`A palavra invertida é: ${invertida}`);
